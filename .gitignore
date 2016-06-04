@@ -31,3 +31,12 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Bootstrap
+/asset/bootstrap
+
+# JQuery
+/asset/jquery/
+
+# Tether
+/asset/tether/
