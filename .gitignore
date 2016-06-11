@@ -40,3 +40,9 @@ node_modules
 
 # Tether
 /asset/tether/
+
+# But do not ignore these files...
+!.gitignore
+!*.sample
+# ...even if they are in subdirectories
+!*/
