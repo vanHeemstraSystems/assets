@@ -3,6 +3,7 @@
  */
 var AssetBootstrap = require(__dirname+'/bootstrap.js');
 var AssetJQuery = require(__dirname+'/jquery.js');
+var AssetRaphael = require(__dirname+'/raphael.js');
 var AssetTether = require(__dirname+'/tether.js');
 
 var self = this; 
@@ -37,6 +38,14 @@ Asset.prototype.bootstrap = function() {
  */
 Asset.prototype.jquery = function() {
   return new AssetJQuery();
+}
+
+/**
+ * Create a new AssetRaphael object.
+ * @return {AssetRaphael}
+ */
+Asset.prototype.raphael = function() {
+  return new AssetRaphael();
 }
 
 /**
